@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   examiner-ui-ci:
-    uses: bcgov/bcregistry-sre/.github/workflows/frontend-ci.yaml@main
+    uses: panish16/bcregistry-sre/.github/workflows/frontend-ci.yaml@feat/upgrade-pnpm-v11
     with:
       app_name: "strr-examiner-ui"
       working_directory: "./strr-examiner-web"
