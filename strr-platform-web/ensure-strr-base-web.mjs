@@ -30,7 +30,7 @@ import { fileURLToPath } from 'node:url'
 const baseWebDir = resolve(dirname(fileURLToPath(import.meta.url)), '../strr-base-web')
 
 if (!existsSync(baseWebDir)) {
-  const res = await fetch('https://codeload.github.com/bcgov/STRR/tar.gz/refs/heads/main')
+  const res = await fetch('https://codeload.github.com/panish16/STRR/tar.gz/refs/heads/feat/upgrade-pnpm-v11')
   if (!res.ok) {
     throw new Error(`Failed to fetch strr-base-web tarball: ${res.status} ${res.statusText}`)
   }
